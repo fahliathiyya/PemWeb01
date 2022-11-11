@@ -1,0 +1,53 @@
+
+        .container {
+            margin: 10px;
+        }
+
+        .kotakkuning {
+            background-color: yellow;
+            width: 290px;
+            height: 100px;
+            margin-left: 10px;
+            margin-right: 10px;
+            float: left;
+        }
+
+        .kotakmerah {
+            background-color: red;
+            width: 1280px;
+            height: 100px;
+            margin: 25px ;
+            
+        }
+
+        .kotakungu{
+            background-color: lightslategray;
+            width:700px ;
+            height:390px ;
+            margin: 10px;
+        }
+
+        .kotakijo {
+            background-color: green;
+            width: 290px;
+            height: 390px;
+            margin: 10px;
+        }
+
+        .kotakbiru{
+            background-color: rgb(0, 183, 255);
+            width: 290px;
+            height: 390px;
+            margin: 10px;
+        }
+        .kotakbirutua {
+            background-color: blue;
+            width: 1306px;
+            height: 100px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .bungkus {
+            display: flex;
+        }
