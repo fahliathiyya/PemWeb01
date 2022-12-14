@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // membuat array fruits
+        let fruits = ["Apel", "Mangga", "Jeruk"];
+        console.log(fruits[0]  + fruits[1] + fruits[2]);
+
+        // menampilkan semua data array dengan looping for
+        for (let i = 0; i < 3; i++) {    
+            console.log(fruits[i]);
+        }
+
+        fruits.push("Jambu", "Manggis"); //menambah data array
+        fruits.pop(); //menghapus data array paling akhir
+        fruits.sort(); //mengurutkan data array A-Z
+        fruits.sort().reverse(); //mengurutkan data array Z-A
+
+        console.log("");
+
+        // menampilkan data array dengan looping for
+        for (let i = 0; i < fruits.length; i++) {    
+            console.log(fruits[i]);
+        }
+
+        // Object
+        let mobil = {
+            tipe : "Turismo",
+            merk : "Lamborghini",
+            tahun : 2009,
+            warno : "Merah",
+            jalan : function (){
+                console.log("Bremmmmm...")
+            },
+        };
+        console.log(mobil.jalan);
+    </script>
+</head>
+<body>
+    <h1>Belajar Array</h1>
+</body>
+</html>
