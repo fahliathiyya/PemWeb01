@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Javascript</title>
+</head>
+<body>
+    <input type="number" id="pertama" onchange="hitung()">
+    <br>
+    +
+    <br>
+    <input type="number" id="kedua" onchange="hitung()">
+    <br>
+    =
+    <br>
+    <input type="text" id="hasil" onchange="hitung()">
+</body>
+</html>
+
+<script>
+    function hitung() {
+        let pertama = document.getElementById("pertama").value; 
+        let kedua = document.getElementById("kedua").value;
+        let hitung = +pertama + +kedua;
+        document.getElementById("hasil").value = hitung;
+    }
+</script>

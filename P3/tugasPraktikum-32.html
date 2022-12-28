@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title> Form Pesanan barang</title>
+    </head>
+    <body style="margin: 0">
+        <nav style="background-color:lightgray">
+           <table border="0" style="justify-content: space-between;">
+               <tr height="70px">
+                   <td width="20px"></td>
+                  <td width="160px"></td> 
+                  <td><a href="#"> Home</a>|</td>
+                  <td><a href="#">Generate Link</a>|</td>
+                  <td><a href="#">Transaction History</a>|</td>
+                  <td><a href="#">Policy</a>|</td>
+                  <td><a href="#">Logout</a>|</td>
+
+               </tr>
+           </table> 
+        </nav>
+
+        <div class="container">
+            <div class="col-4" style="width:25%;
+                height: 250px;
+                float: left;
+                margin-top: 80px;
+                padding: 10px 20px;
+                margin-right:30px;">
+                <img src="Screenshot (1713).png" alt="" width="250px" height="100px">
+                <input type="file" name="" id="">
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="col-8">
+                <form action="">
+                 <label for="id_title">Title Here : </label>
+                 <input type="text" name="title" id="id_title">
+                 <br>
+
+                 <label for="id_description">Description : </label>
+                 <textarea name="description" id="" cols="30" rows="10"></textarea>
+                 <br>
+                 
+                 <label for="id_acc">Account Number : </label>
+                 <input type="text" name="acc" id="id_acc">
+                 <br>
+                 
+                 <label for="id_bank">Bank Name</label>
+                 <select name="bank" id="">
+                    <option value="">HSBC</option>
+                    <option value="">BCA</option>
+                    <option value="">Mandiri</option>
+                 </select>
+                 <br>
+                 
+                 <label for="id_holder">Account Holder : </label>
+                 <input type="text" name="id_holder" id="id_holder">
+                 <br>
+
+                 <label for="id_transaction">Transaction</label>
+                 <input type="number"><br>
+                 <label for="">*if the transaction is for 3 person, choose 3 from the dropdown list</label>
+                 <br>
+                 <input type="checkbox" name="" id=""><label for="">Send to mobile phone</label> <br>
+                 <input type="checkbox" name="" id=""><label for="">Send to email</label>
+                 <br>
+
+                 <label for="id_mobilephone">Send to Mobile Phone : </label>
+                 <input type="text" name="" id="">
+                 <br>
+
+                 <label for="id_mobilephone">Send to Email : </label>
+                 <input type="text" name="" id=""><br>
+                 <input type="submit" value="Generate Nabr Link" style="background-color: green; color: white;">
+
+                 <br>
+                 
+
+
+                </form>
+             </div>
+        </div>
+   
+    </body>
+</html>
